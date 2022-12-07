@@ -1,1 +1,154 @@
-<mxfile host="app.diagrams.net" modified="2022-12-07T20:05:31.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="XkX7ZDjc8whulGyTy84y" type="github"><diagram id="w4-BE01D9_Ua7f1krCvi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-07T20:47:21.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="GRhe-XeltLCNIt8KGnOW" type="github">
+  <diagram id="qYyir6UW7D2a8Nlf07Au" name="Page-1">
+    <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#283618" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eR_08L6kOvap6HGwOAWD-3" value="StaffingPlanCoverage&lt;br&gt;(base class)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" vertex="1" parent="1">
+          <mxGeometry x="935" y="30" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-4" value="ScheduleFilter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-5" value="FilterTile" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-6" value="" style="endArrow=classic;html=1;rounded=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;labelBackgroundColor=#283618;strokeColor=#DDA15E;fontColor=#FEFAE0;" edge="1" parent="1" source="eR_08L6kOvap6HGwOAWD-4" target="eR_08L6kOvap6HGwOAWD-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="200" as="sourcePoint" />
+            <mxPoint x="1040" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-8" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;labelBackgroundColor=#283618;strokeColor=#DDA15E;fontColor=#FEFAE0;" edge="1" parent="1" source="eR_08L6kOvap6HGwOAWD-3" target="eR_08L6kOvap6HGwOAWD-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="190" as="sourcePoint" />
+            <mxPoint x="1040" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-9" value="Opened as a modal" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#FEFAE0;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="90" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-10" value="StaffingTotals&lt;br&gt;(extended)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="770" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-11" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eR_08L6kOvap6HGwOAWD-3" target="eR_08L6kOvap6HGwOAWD-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="70" as="sourcePoint" />
+            <mxPoint x="1040" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-13" value="EmployeeSearch" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="70" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-14" value="QuickSchedule" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-15" value="ContactPage" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="70" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-16" value="DailySchedule" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="70" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-17" value="Issues" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="60" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-18" value="OpenShiftRequest" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="60" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-19" value="OpenShiftRequestDetailActiviity" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="60" y="550" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-26" value="OpenShiftRequestDetailApproval" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="60" y="630" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-27" value="OpenShiftRequestDetailRightPanel" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="60" y="710" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-28" value="PreventableOvertime" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="410" y="540" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-29" value="PreventableOvertimeDetails" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="410" y="630" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-30" value="QualifiedStaff" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="520" y="730" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-31" value="ValidationWarnings" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="530" y="820" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-32" value="Requests" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="550" y="910" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-33" value="RequestDetailsOverview" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="880" y="550" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-34" value="RequestDetailsRightPanel" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="880" y="640" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-35" value="StaffingStatus" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="880" y="730" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-36" value="ScheduleClearForm" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="880" y="810" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-37" value="TradeRequests" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="870" y="890" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-38" value="ConfirmationTradeRequestsDeny" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="540" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-39" value="TradeValidationWarningsModal" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="630" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-40" value="TradeRequestDetailsRightPanel" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="700" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-41" value="TradeRequestQuickOverview" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="770" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-42" value="UnitTile" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="840" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-43" value="AddUnscheduledEmployee" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="920" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-44" value="WeeklyViewFilter" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="530" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-45" value="EmployeeCalendarDisplay" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="610" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-46" value="AddQualifiedStaff" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="690" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-47" value="ErrorPage" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="770" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-48" value="Messaging" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="840" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-49" value="EmployeeInfo" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="920" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-50" value="MatchingSchedule" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="530" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-51" value="OverlappingSchedule" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="610" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-52" value="RightPanel" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="690" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-53" value="ScheduleCalendar" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="770" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-54" value="WFMToastMessage" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="850" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR_08L6kOvap6HGwOAWD-55" value="ValidationWarnings" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="930" width="260" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
