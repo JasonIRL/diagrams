@@ -1,0 +1,30 @@
+name: Update from Develop
+
+on:
+  push:
+    branches: [develop]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.2
+        with:
+          fetch-depth: 0
+
+      - name: Setup Git User
+        run: |
+          git config user.name "Github Action"
+          git config user.email "<EMAIL>"
+
+      - name: Update develop-2
+        run: |
+          git checkout develop
+          git fetch origin
+          git checkout develop-2
+          git pull
+          git rebase origin/develop
+          git push origin develop-2
+          
+          
