@@ -9,22 +9,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Setup Git User
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-
-      - name: Update develop-2
-        run: |
           git checkout develop
           git fetch origin
           git checkout develop-2
           git pull
           git rebase origin/develop
           git push --force origin develop-2
-          
-          
